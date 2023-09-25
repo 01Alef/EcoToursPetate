@@ -1,0 +1,33 @@
+.body {
+    background: linear-gradient(135deg, orange 60%, cyan);
+}
+
+.mejores-tours {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.foot {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.foot__contact, .foot__about, .foot__redes {
+    width: 30%;
+    height: 30%;
+}
+
+@media (max-width: 767px) {
+    .foot {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    
+    }
+    
+    .foot__contact, .foot__about, .foot__redes {
+        width: 90%;
+        height: 30%;
+    }
+}
